@@ -10,7 +10,7 @@
   },
   "servers": [
     {
-      "url": "http://sandbox.mintlify.com"
+      "url": "https://api.shieldcompany.dev"
     }
   ],
   "security": [
@@ -19,9 +19,9 @@
     }
   ],
   "paths": {
-    "/plants": {
+    "/v1/users/me": {
       "get": {
-        "description": "Returns all plants from the system that the user has access to",
+        "description": "This endpoint retrieves the authenticated users information.",
         "parameters": [
           {
             "name": "limit",
